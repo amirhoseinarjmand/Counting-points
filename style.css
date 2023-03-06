@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: Byekan;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #061b23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 20%;
+  background-color: #1f5f5b;
+  padding: 1.3rem 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.box__text {
+  font-size: large;
+  text-align: center;
+  color: #fff;
+}
+
+.box__input {
+  width: 95%;
+  height: 2.5rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px 16px;
+  direction: rtl;
+  font-weight: 800;
+}
+
+.box__count {
+  font-size: large;
+  color: #fff;
+}
+
+@font-face {
+  font-family: Byekan;
+  src: url(../fonts/Byekan.ttf) format("truetype"),
+    url(../fonts/Byekan.woff) format("woff");
+}
